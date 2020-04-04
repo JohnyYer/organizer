@@ -5,8 +5,8 @@ import { Paper } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-    flexGrow: 1,
-    padding: '3em'
+		flexGrow: 1,
+		padding: '3em',
 	},
 	paper: {
 		padding: theme.spacing(1),
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 		cursor: 'pointer',
 		'&:hover': {
 			background: '#f5f5f5',
-    }
+		},
 	},
 }));
 
